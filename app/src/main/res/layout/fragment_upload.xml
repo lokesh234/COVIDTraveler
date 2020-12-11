@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/UploadTitle"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom"
+            android:text="@string/upload"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/uploadDivider"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/red"
+            android:backgroundTint="@color/red" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/takePicture" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonTakePicture"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/round_button"
+                app:srcCompat="@drawable/ic_camera"
+                android:clickable="false"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagePreviewView"
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:visibility="invisible"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="10sp"
+            android:visibility="invisible"
+            android:text="@string/noMask" />
+
+    </LinearLayout>
+</RelativeLayout>

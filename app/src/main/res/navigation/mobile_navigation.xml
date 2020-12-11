@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="edu.wpi.cs528finalproject.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="edu.wpi.cs528finalproject.ui.report.ReportFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/navigation_upload"
+        android:name="edu.wpi.cs528finalproject.ui.upload.UploadFragment"
+        android:label="@string/upload"
+        tools:layout="@layout/fragment_upload" >
+        <argument
+            android:name="upload_click"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="edu.wpi.cs528finalproject.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_web"
+        android:name="edu.wpi.cs528finalproject.ui.web.WebFragment"
+        android:label="@string/covid19info"
+        tools:layout="@layout/fragment_web" />
+    <action
+        android:id="@+id/action_global_navigation_upload"
+        app:destination="@id/navigation_upload">
+        <argument
+            android:name="upload_click"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </action>
+</navigation>

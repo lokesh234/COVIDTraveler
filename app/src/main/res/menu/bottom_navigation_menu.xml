@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home__1_"
+        android:title="@string/home"
+        android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/navigation_report"
+        android:enabled="true"
+        android:icon="@drawable/ic_report"
+        android:title="@string/report"
+        android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/navigation_upload"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/upload"
+        android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile"
+        android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/navigation_web"
+        android:enabled="true"
+        android:icon="@drawable/ic_coronavirus"
+        android:title="@string/covid19info"
+        android:menuCategory="secondary"/>
+
+</menu>

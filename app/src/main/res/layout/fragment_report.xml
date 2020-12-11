@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomborder"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/CheckInTitle"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom"
+        android:text="@string/report"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <View
+        android:id="@+id/checkinDivider"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/red"
+        android:backgroundTint="@color/red" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/ReportInstructions" />
+
+    <TextView
+        android:id="@+id/reportLocationDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/LocationHint"
+        android:textSize="12dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/reportLocation"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bottomborder"
+        android:ems="20"
+        android:hint="@string/LocationHint" />
+
+    <TextView
+        android:id="@+id/reportDateDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/Date"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/reportDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="20"
+        android:hint="@string/DateHint"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/reportTimeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/Time"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/reportTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="20"
+        android:hint="@string/TimeHint"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/reportNumPeopleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/NumPeopleHint"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/reportNumPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="20"
+        android:hint="@string/NumPeopleHint"
+        android:inputType="number" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/Submit"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">COVID Traveler</string>
+
+    <!-- Permissions -->
+    <string name="location_permission_required">Access to your location is required for location-based features.</string>
+    <string name="location_permission_rationale">We use your location to give you the most accurate COVID-19
+    case data for your area, and give you risk assessments for any place you might visit.</string>
+    <string name="camera_permission_required">Access to your camera is required for check-in.</string>
+    <string name="camera_permission_rationale">When you enter a public area or place of business, we will
+    ask you to take a picture of yourself wearing a mask to demonstrate that you are complying with state public
+    health regulations. If you do this consistently, you might win a prize!</string>
+
+    <!-- Login and Signup -->
+    <string name="x_text"> X </string>
+    <string name="signup_text"> SignUp </string>
+    <string name="signup_button"> Sign Up </string>
+    <string name="login_text"> Log in </string>
+    <string name="empty">  </string>
+    <string name="fullname"> Full Name </string>
+    <string name="fullnameemail"> Full Name or Email </string>
+    <string name="loginemail"> Login with Email </string>
+    <string name="email"> Email </string>
+    <string name="password"> Password </string>
+    <string name="cpassword"> Confirm Password </string>
+    <string name="atleast"> Must be at least 6 characters </string>
+    <string name="terms1"> By continuing, you agree to accept our </string>
+    <string name="terms2"> Privacy Policy &amp; Terms of Service </string>
+    <string name="login1"> DON\'T HAVE AN ACCOUNT? </string>
+    <string name="login2"> SIGN UP INSTEAD </string>
+    <string name="home"> Home</string>
+    <string name="report"> Report </string>
+    <string name="profile"> Profile </string>
+    <string name="upload"> Upload </string>
+    <string name="covid19info"> Info </string>
+
+    <!-- Report -->
+    <string name="Submit"> SUBMIT! </string>
+    <string name="LocationHint"> Location </string>
+    <string name="Date"> Date </string>
+    <string name="DateHint"> MM/DD/YYYY </string>
+    <string name="Time"> Time </string>
+    <string name="TimeHint"> hh:mm AM/PM </string>
+    <string name="NumPeopleHint">Number of People</string>
+    <string name="ReportInstructions">See someone not wearing a mask? Make a report so we can let other users know.</string>
+
+    <!-- Home/Check-in page -->
+    <string name="checkin"> Check In </string>
+    <string name="covidSafety">COVID Safety</string>
+    <string name="safetyTextLoading">Fetching COVID-19 data for your location…</string>
+    <string name="safetyTextNumCases">There were %d positive cases of COVID-19 reported in the last two weeks.</string>
+    <string name="safetyTextThreatLevel">Threat Level: %s</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <!-- Profile Page -->
+    <string name="signout"> Signout </string>
+    <string name="update"> Update </string>
+    <string name="changePassword"> Change Password </string>
+    <string name="percentileNum"> %d </string>
+    <string name="percentile"> You are in the %dth percentile of users </string>
+    <string name="statsSentence"> Keep it going! You have uploaded a picture of yourself wearing a mask %.2f percent of the time! </string>
+    <string name="noDataSentence"> You have not submitted any mask wearing pictures yet!</string>
+    <string name="graphDescription">Percentage of times users wear masks</string>
+
+    <!-- Upload Page -->
+    <string name="takePicture"> Take a picture! </string>
+    <string name="noMask"> You are not wearing a mask </string>
+    <string name="mask"> You are wearing a mask </string>
+
+    <!-- Location Service -->
+    <string name="launch_app">Launch app</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="new_city_level_title">New locality information available</string>
+    <string name="new_city_level_notification">%s has a %s level COVID threat</string>
+
+    <!-- Check-in -->
+    <string name="check_in_title">Check-in Required</string>
+    <string name="check_in_content">We\'ve noticed you\'re in a new place! Please confirm to take a masked
+    photo now, or go to the Upload tab to take one yourself in the next five minutes.</string>
+
+</resources>

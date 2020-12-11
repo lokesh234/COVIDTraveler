@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "367200795202",
+    "firebase_url": "https://cs528-finalproject.firebaseio.com",
+    "project_id": "cs528-finalproject",
+    "storage_bucket": "cs528-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367200795202:android:49d52b96a83b935a2e4bdb",
+        "android_client_info": {
+          "package_name": "edu.wpi.cs528finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367200795202-9ocheheget8v19j53b3vgoik94gp3kn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALHHtdh8vXq6I0DPygdlyf5eWRrLWEHUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367200795202-9ocheheget8v19j53b3vgoik94gp3kn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
